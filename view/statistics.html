@@ -40,24 +40,32 @@
       </ul>
     </div>
   </nav>
-  <div class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="/user" id="dropdownId1" data-toggle="dropdown"
-       aria-haspopup="true" aria-expanded="false">Year</a>
-    <div class="dropdown-menu" aria-labelledby="dropdownId">
-      <a class="dropdown-item" href="/edit">Edit</a>
-      <a class="dropdown-item" href="/log_out">Log out</a>
-    </div>
-  </div>
+  <table>
+    <tr>
+      <td>
+        <div class="nav-item dropdown">
+          <a class="btn btn-primary" class="nav-link dropdown-toggle" href="/user" id="dropdownId1" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false">Year</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownId">
+            <a class="dropdown-item" href="#">chuwc nang 1</a>
+            <a class="dropdown-item" href="#">chawc nang 2</a>
+          </div>
+        </div>
+      </td>
+      <td>
+        <button type="button" class="btn btn-primary">Export pdf</button>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <p>Income statistics</p>
   <table class="table table-striped">
     <tr>
-      <td>Mã Phòng</td>
-      <td>Trạng Thái</td>
-      <td>Giờ vào</td>
-      <td>Giờ ra</td>
-      <td>Hành động</td>
+      <td>Month</td>
+      <td>Total</td>
     </tr>
     <tr>
-      {room-list}
+
     </tr>
   </table>
 </div>
